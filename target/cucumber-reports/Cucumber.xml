@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="15.419">
+<testcase classname="Login" name="_2" time="11.728">
+<system-out><![CDATA[Given Mustafa is on home page...............................................passed
+And Mustafa has an account on Amazon........................................passed
+When Mustafa logs in with his valid credentials.............................passed
+Then He should be directed to home page.....................................passed
+And He should see his name on the navigation bar............................passed
+But He should not see log in button on the navigation bar...................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="_3" time="3.512">
+<system-out><![CDATA[Given Mustafa is on home page...............................................passed
+And Mustafa has an account on Amazon........................................passed
+When Mustafa tries to log in in with invalid credentials....................passed
+Then He could not log in....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
